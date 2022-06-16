@@ -24,7 +24,7 @@ jobs:
       - uses: microsoft/powerplatform-actions/pack-solution@v0
         with: 
          solution-file: packed-solutions/con_publisher.zip
-         solution-folder: solutions/SourceFiles
+         solution-folder: Solutions/SourceFiles
          solution-type: Unmanaged
       - uses: actions/upload-artifact@v3
         with:
