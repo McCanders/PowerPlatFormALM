@@ -25,7 +25,7 @@ jobs:
         with: 
          solution-file: packed-solutions/con_publisher.zip
          solution-folder: solutions/SourceFiles
-         solution-type: Both
+         solution-type: Unmanaged
       - uses: actions/upload-artifact@v3
         with:
           name: solution-artifact
