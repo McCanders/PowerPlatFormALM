@@ -34,7 +34,7 @@ jobs:
   deploy:
     environment: NextEnvironment
       - needs: build
-    runs-on: ubuntu-latest
+        runs-on: ubuntu-latest
     steps: 
      - uses: actions/download-artifact@v3
        with:
